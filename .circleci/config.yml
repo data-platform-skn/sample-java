@@ -6,4 +6,4 @@ workflows:
     jobs:
       - pack/build:
           image-name: sample
-          builder: 'gcr.io/buildpacks/builder:v1'
+          builder: 'heroku/buildpacks:20 '

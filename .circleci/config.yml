@@ -6,4 +6,4 @@ workflows:
     jobs:
       - pack/build:
           image-name: sample
-          builder: 'heroku/buildpacks:20 '
+          builder: 'cnbs/sample-builder:bionic'

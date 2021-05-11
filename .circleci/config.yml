@@ -5,5 +5,5 @@ workflows:
   main:
     jobs:
       - pack/build:
-          image-name: sample
-          builder: 'paketobuildpacks/builder:base'
+          image-name: sampleapp
+          builder: 'cnbs/sample-builder:bionic'
